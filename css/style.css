@@ -4,10 +4,6 @@
     font-weight: 400;
 }
 
-a {
-    color:black;
-}
-
 .bold {
     font-weight: 700;
 }
@@ -26,6 +22,14 @@ main {
 .center {
     margin-top:auto;
     margin-bottom:auto;
+}
+
+a {
+    color: #a78171;
+}
+
+a:hover {
+    color:#61311C;
 }
 
 
@@ -51,7 +55,11 @@ footer p {
 }
 
 footer .container {
-    width: 50%;
+    width: 70%;
+}
+
+footer a {
+    color:black;
 }
 
 
@@ -66,7 +74,6 @@ footer .container {
 
 main.homepage {
     background-color: #A78171;
-    min-height: 75vh;
 }
 
 .homepage .container {
@@ -75,15 +82,13 @@ main.homepage {
 }
 
 #headshot {
-    height: 55vh;
-    padding: 20px;
-    padding-left: 0px;
+    width: 100%;
+    padding: 10px;
 }
 
 #info {
-    min-width: 100%;
-    width: 35vw; 
     font-size: large;
+    padding-right: 20px;
 }
 
 #info-header {
@@ -103,11 +108,54 @@ main.homepage {
 }
 
 
-/* Resume Page */
+/* Sub Pages */
+@media only screen and (max-width: 768px) {
+    .subpage .container {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .subpage .container {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .subpage .container {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+
 h2 {
     text-align: center;
 }
 
+
+/* Resume */
 .section {
-    padding-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.experience {
+    background-color: white;
+    border-left-style: solid;
+    border-left-width: 18px;
+    border-color:#A78171;
+    padding: 40px 20px 40px 20px;
+    --bs-gutter-x: 0;
+    margin-top: 50px;
+}
+
+.experience .col-md-4 {
+    padding-right: 10px;
+}
+
+.company, .location {
+    font-size: smaller;
+}
+
+#resume-download {
+    text-align:right;
 }
