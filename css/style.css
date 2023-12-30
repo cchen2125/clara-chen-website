@@ -117,8 +117,8 @@ main.homepage {
 }
 @media only screen and (min-width: 768px) {
     .subpage .container {
-        margin-left: 15vw;
-        margin-right: 15vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -130,6 +130,10 @@ main.homepage {
 
 h2 {
     text-align: center;
+}
+
+.company, .location, .tools{
+    font-size: small;
 }
 
 
@@ -152,10 +156,12 @@ h2 {
     padding-right: 10px;
 }
 
-.company, .location {
-    font-size: smaller;
-}
-
 #resume-download {
     text-align:right;
+}
+
+/* Projects */
+
+h5, .subtitle {
+    margin-bottom: 0;
 }
