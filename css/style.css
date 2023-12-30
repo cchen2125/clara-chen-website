@@ -1,0 +1,113 @@
+/* Overall Styling */
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color:black;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.heading {
+    color: #61311C;
+}
+
+main {
+    background-color: #F2DFD7;
+    padding: 5%;
+    display:flex;
+    justify-content: center;
+}
+
+.center {
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+
+/* Navbar */
+nav {
+    background-color: white;
+    padding: 40px;
+}
+
+.navbar-brand {
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer .container {
+    width: 50%;
+}
+
+
+/* Homepage */ 
+
+.about {
+    background-color: #F2DFD7;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+}
+
+main.homepage {
+    background-color: #A78171;
+    min-height: 75vh;
+}
+
+.homepage .container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#headshot {
+    height: 55vh;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+#info {
+    min-width: 100%;
+    width: 35vw; 
+    font-size: large;
+}
+
+#info-header {
+    padding-bottom: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: #A78171;
+    padding: 0.15em 0.85em;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #F2DFD7;
+    border-color: black;
+}
+
+
+/* Resume Page */
+h2 {
+    text-align: center;
+}
+
+.section {
+    padding-bottom: 30px;
+}
